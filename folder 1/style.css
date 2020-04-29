@@ -1,0 +1,141 @@
+*{
+	margin:	0px;
+	padding: 0px;
+}
+body{
+	background-color: #B7D7B7;
+}
+
+.navbar{
+	padding: 10px;
+	height: 40px;
+	padding-top: 25px;
+	background-color: black;
+	color: white;
+	font-size: 24px;
+	text-align: left;
+}
+
+#home{
+	text-align: center;
+	margin-top: 220px;
+	color: red; 
+	font-size: 50px;
+	font-weight: bold;
+	font-family: sans-serif;
+  	animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  0%   {color: red;}
+  20%  {font-size: 60px;}
+  40%  {color: purple;}
+  60% {font-size: 50px;}
+  80% {color: black;}
+  100% {font-size: 40px;}
+}
+
+#logo{
+	position: relative;
+	width: 20%;
+	margin-right: 10px;
+}
+
+.navbar > a{
+	position: relative;
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+}
+a:hover, a:active{
+	font-size: 20px;
+	color: yellow;
+}
+
+#profile{
+	background-color: #8A2BE2;
+	width: 45%;
+	height: 500px;
+	float: center;
+	margin-left: 450px;
+}
+
+#profile-head{
+	padding-top: 20px;
+	text-align: center;
+	color: red;
+	font-size: 36px;
+	margin-top: 70px;
+	font-weight: bold;
+	font-family: cursive;
+	margin-bottom: 40px; 
+}
+
+#table{
+	margin-left: 150px;
+	font-size: 25px;
+	font-family: monospace;
+	color: #F5FFFA;
+	font-weight: bold;
+}
+
+#phone{
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+td{
+	text-align: left;
+	height: 40px;
+	margin: 5px;
+}
+
+#img-p{
+	display: block;
+	margin-left: 100px;
+	border-radius: 50%;
+}
+
+#education{
+	width: 30%;
+	height: 200px;
+	margin-top: 50px;
+	padding-top: 10px;
+	background-color: #ADFF2F;
+	margin-left:500px;
+	margin-right: 10px;
+	overflow: hidden;
+}
+
+h2{
+	margin-top: 10px;
+	text-align: center;
+	color: #000080;
+	font-size: 30px;
+}
+
+ol{
+	margin-top: 10px;
+	font-size: 18px;
+	font-family: fantasy;
+	margin-left: 30px;
+}
+
+#Training-Certificates{
+	width: 30%;
+	height: 200px;
+	padding-top: 10px;
+	background-color: #7B68EE;
+	margin-left:500px;
+	margin-right: 10px;
+}
+
+#Other{
+	width: 30%;
+	height: 160px;
+	padding-top: 10px;
+	background-color: #4169E1;
+	margin-left:500px;
+	margin-right: 10px;
+}
